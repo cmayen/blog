@@ -1,0 +1,11 @@
+
+.wrapper{
+  max-width:950px !important;
+}
+
+.wrapper > section {
+  max-width:950px !important;
+}
+
+
+@import "{{ site.theme }}";
