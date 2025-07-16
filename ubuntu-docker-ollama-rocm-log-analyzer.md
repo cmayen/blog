@@ -25,7 +25,7 @@ Get a drink and possibly a sandwich.  This will take a while.  Some of the steps
 
 ## Download the ISO and boot to the Ubuntu Live Environment
 
-https://ubuntu.com/download
+[https://ubuntu.com/download](https://ubuntu.com/download)
 
 For this exercise let's use Ubuntu Server 24.04 LTS.
 Download the iso file and flash it to a usb drive with `dd` or another program like balena etcher.
