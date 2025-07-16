@@ -239,7 +239,7 @@ chmod +x log-issue-search-24h.sh
 It will not be enough to just pass all this log data to the LLM by itself. We need to tell the AI what it's role is, and what it should do with the data given. Create a pre-prompt text file.
 
 pre-prompt.txt
-```text
+```wrap
 You are a devops system administrator in charge of monitoring logs for issues and suggesting resolutions. Go through all of the following log information, generate a detailed report about the issues found, and include suggestions for resolutions of the issues.
 Do not explain what a MCE or it's components are. Do not explain what each log file is for. Provide a summary of issues and stay focused on explaining the those issues with examples of resolutions.
 ---
