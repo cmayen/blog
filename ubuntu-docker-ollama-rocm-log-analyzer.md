@@ -1,6 +1,9 @@
 
+# Ubuntu, Docker,  and Ollama on AMD to analyze logs.
+
 Creating a new Ubuntu server, with Docker installed, and an Ollama container using LLM to act as a system reporting tool for raising flags on warnings, errors, and critical issues on the machine.
 
+---
 
 My previous daily driver rig wasn't being used anymore and since it had a GPU in it, I decided to experiment. Most AI and LLM installations are running on NVIDIA however this machine is running an old AMD graphics card and an AMD CPU, so there are a few differences that need to be taken care of.  This is an old(ish) machine, built with bargain bin parts in 2019. A lot of heavy games while offloading video encoding to CPU and fumbled loops in code that weren't caught right away. Along with other things... It was a dev box and a game box and a media box all at the same time. It should be interesting to see what kind of report we end up with at the end.
 
@@ -336,7 +339,9 @@ Open up the ollama-logs-report.txt
 vim ollama-logs-report.txt
 ```
 
-```output
+```wrap
+
+
 Okay, let's break down these logs and understand what's happening. These logs from a system named "fusion" show a recurring pattern of machine check errors, along with various other issues.
 
 **Key Observations and Interpretation:**
