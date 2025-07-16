@@ -1,4 +1,6 @@
 
+@import "{{ site.theme }}";
+
 .wrapper{
   max-width:950px !important;
 }
@@ -7,5 +9,3 @@
   max-width:950px !important;
 }
 
-
-@import "{{ site.theme }}";
