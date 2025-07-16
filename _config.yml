@@ -4,3 +4,4 @@ plugins:
 title: "Chris's Pages"
 tagline: "A place where I post and store things I do and learn."
 description: ""
+markdown: kramdown
