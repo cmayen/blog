@@ -71,7 +71,6 @@ ip a
 ## Installing Docker and necessary AMD packages.
 
 First let's update some group memberships, and allow the use of hardware.
-# TODO THERE IS ISSEUR HEREW when testing later
 ```shell
 sudo usermod -aG render,video $LOGNAME
 ```
