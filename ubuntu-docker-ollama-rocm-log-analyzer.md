@@ -12,7 +12,7 @@ My previous daily driver rig wasn't being used anymore and since it had a GPU in
 All of this was put together through experimentation and reading the documentation that the packages used provide. They tell us everything we need to know to use them and what the requirements are. The tricky part comes when we work to put them all together and make something different.
 
 
-## KubeKraft
+## KubeCraft
 "Read The Friendly Manual" is something I picked up from Mischa van den Burg in the [KubeCraft](https://www.skool.com/mischa) community. When I first heard that it made me laugh,  I could really appreciate how the different tone of the phrase (compared to what we're used to) actually invites people to look at the manuals and documentation. If it helps people want to learn and succeed, then I love it!
 The [KubeCraft](https://www.skool.com/mischa) community is a fantastic group of people with a wide range of skills from absolute beginners to retired veteran experts. It's a great community to both learn and teach at the same time, and not just about tech and Kubernetes. I highly recommend checking it out.
 
