@@ -13,8 +13,8 @@ All of this was put together through experimentation and reading the documentati
 
 
 ## KubeCraft
-"Read The Friendly Manual" is something I picked up from Mischa van den Burg in the [KubeCraft](https://www.skool.com/mischa) community. When I first heard that it made me laugh,  I could really appreciate how the different tone of the phrase (compared to what we're used to) actually invites people to look at the manuals and documentation. If it helps people want to learn and succeed, then I love it!
-The [KubeCraft](https://www.skool.com/mischa) community is a fantastic group of people with a wide range of skills from absolute beginners to retired veteran experts. It's a great community to both learn and share knowledge at the same time, and not just about tech and Kubernetes. I highly recommend checking it out.
+"Read The Friendly Manual" is something I picked up from Mischa van den Burg in the [KubeCraft](https://www.skool.com/mischa){:target="_blank" rel="noopener"} community. When I first heard that it made me laugh,  I could really appreciate how the different tone of the phrase (compared to what we're used to) actually invites people to look at the manuals and documentation. If it helps people want to learn and succeed, then I love it!
+The [KubeCraft](https://www.skool.com/mischa){:target="_blank" rel="noopener"} community is a fantastic group of people with a wide range of skills from absolute beginners to retired veteran experts. It's a great community to both learn and share knowledge at the same time, and not just about tech and Kubernetes. I highly recommend checking it out.
 
 
 ## Prep
@@ -25,7 +25,7 @@ Get a drink and possibly a sandwich.  This will take a while.  Some of the steps
 
 ## Download the ISO and boot to the Ubuntu Live Environment
 
-[https://ubuntu.com/download](https://ubuntu.com/download)
+[https://ubuntu.com/download](https://ubuntu.com/download){:target="_blank" rel="noopener"}
 
 For this exercise let's use Ubuntu Server 24.04 LTS.
 Download the iso file and flash it to a usb drive with `dd` or another program like balena etcher.
