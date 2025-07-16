@@ -1,3 +1,6 @@
 remote_theme: pages-themes/midnight@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+title: "Chris's Blog"
+tagline: "Software Engineer | Linux SysAdmin | Electronics | Kubernetes HomeLab | Industrial Robotics | Part time Mad Scientist"
+description: "A place where I blog about things I do as a devops."
