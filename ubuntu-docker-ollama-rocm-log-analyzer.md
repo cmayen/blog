@@ -1,5 +1,6 @@
 
 # Ubuntu, Docker,  and Ollama on AMD to analyze logs.
+2025-07-16
 
 Creating a new Ubuntu server, with Docker installed, and an Ollama container using LLM to act as a system reporting tool for raising flags on warnings, errors, and critical issues on the machine.
 
