@@ -387,5 +387,6 @@ The AI may put extra information in the report you don't care about. Things like
 We have a report file. We also have a combined issue log file. One thing we can do is create an email to send to the administrator with the report as the body, and the combined logs as an attachment. This could fill an inbox quickly, and possibly expose vulnerabilities to outside networks. So I won't be doing that.
 
 One thing I want to do is have a web interface or API for a cluster dashboard.  Setup a docker container that will act as a receiving point where multiple servers can send the log-issue-search-24h.sh output to. That receiving server would then run the logs through the LLM generating multiple reports, then do another AI run to summarize all of the reports into one. Obviously, automate it all!
+SQL for storing the data generating making metrics, migrating over to k8s, and bringing in capabilities to dig into more log types. Lot's of cool ideas are brewing.
 
 That sounds like a fun next step, cool deal! For now I will likely make a cron job and manually look at the report when I log in until I can get more infrastructure going and make a tighter network stack. Maybe setup some Kubernetes pods and have them use the reporter server too.
