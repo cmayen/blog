@@ -384,7 +384,7 @@ The AI may put extra information in the report you don't care about. Things like
 
 
 ## What now?
-We have a report file. We also have a combined issue log file. One thing we can do is create an email to send to the administrator with the report as the body, and the combined logs as an attachment. This could fill an inbox quickly, and possibly expose vulnerabilities to outside networks. So I won't be doing that.
+We have a report file. We also have a combined issue log file. One thing we can do is create an email to send to the administrator with the report as the body, and the combined logs as an attachment. This could fill an inbox quickly, and possibly expose vulnerabilities to outside networks. So I won't be doing that. It also looks like the filter for "yesterday" needs some work, since the logs on a two hour install should have reported back with no logs. It worked good for this exercise and testing today, still it needs some more modifications.
 
 One thing I want to do is have a web interface or API for a cluster dashboard.  Setup a docker container that will act as a receiving point where multiple servers can send the log-issue-search-24h.sh output to. That receiving server would then run the logs through the LLM generating multiple reports, then do another AI run to summarize all of the reports into one. Obviously, automate it all!
 SQL for storing the data generating making metrics, migrating over to k8s, and bringing in capabilities to dig into more log types. Lot's of cool ideas are brewing.
