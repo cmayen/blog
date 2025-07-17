@@ -9,7 +9,7 @@ My previous daily driver rig wasn't being used anymore and since it had a GPU in
 
 
 ## Read The Friendly Manual
-All of this was put together through experimentation and reading the documentation that the packages used provide. They tell us everything we need to know to use them and what the requirements are. The tricky part comes when we work to put them all together and make something different.
+Almost all of this was put together through experimentation and reading the documentation that the packages used provide. They tell us everything we need to know to use them and what the requirements are. The tricky part comes when we work to put them all together and make something different. A few extra tips from the community at [KubeCraft](https://www.skool.com/mischa){:target="_blank" rel="noopener"} and I was on my way.
 
 
 ## KubeCraft
