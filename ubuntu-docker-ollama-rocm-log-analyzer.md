@@ -80,7 +80,7 @@ Retrieve the docker and jq packages. It would be a good idea to have an editor l
 sudo apt install -y docker.io jq vim wget gpg
 ```
 
-Get the AMD GPU installer package from the radeon repo and install it. (At the time of this document, the version was 6.3.4)
+Get the AMD GPU installer package from the radeon repo and install it. (At the time of this document, the version was 6.3.x)
 ```shell
 wget https://repo.radeon.com/amdgpu-install/6.3.4/ubuntu/jammy/amdgpu-install_6.3.60304-1_all.deb
 sudo apt install -y ./amdgpu-install_6.3.60304-1_all.deb
