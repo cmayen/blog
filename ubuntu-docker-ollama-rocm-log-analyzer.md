@@ -217,8 +217,9 @@ echo " Log Data - Errors, Warnings, and Criticals - $DATE_S"
 echo "========================================================="
 
 # Scan the /var/log folder for *.log files and loop them looking for the 
-# different error, warning, and critical log entries.
-LOGFILES=$(find /var/log -name "*.log" -mtime -1)
+# different error, warning, and critical log entries. mtime-2 to ensure
+# yesterday is covered
+LOGFILES=$(find /var/log -name "*.log" -mtime -2)
 for LOGFILE in $LOGFILES; do
   # echo -e "\n=== LOGFILE: $LOGFILE ==="
   grep -EiwH "warning|error|critical|alert|fatal" $LOGFILE | grep "$DATE_S"
